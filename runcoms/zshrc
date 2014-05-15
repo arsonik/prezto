@@ -10,4 +10,15 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+<<<<<<< a485fa7a7d7875aa585934036e988e618b1ca35f
 # Customize to your needs...
+=======
+# Source aliases
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
+
+if [ -f ~/.alias ]; then
+    . ~/.alias
+fi
+>>>>>>> add modules

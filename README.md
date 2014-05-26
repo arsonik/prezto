@@ -13,7 +13,7 @@ version is 4.3.11.
 
   1. Auto install:
 
-        curl -L https://github.com/loranger/prezto/raw/master/go.sh | sh
+        curl -L https://github.com/arsonik/prezto/raw/master/go.sh | sh
 
   2. Open a new Zsh terminal window or tab.
 

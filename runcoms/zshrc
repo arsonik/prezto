@@ -21,4 +21,9 @@ fi
 if [ -f ~/.alias ]; then
     . ~/.alias
 fi
+<<<<<<< 9713951e3c69750aac36b2ad857b9b53c21aa61d
 >>>>>>> add modules
+=======
+
+eval "$(/usr/local/bin/docker-machine env default)"
+>>>>>>> add docker env

@@ -20,4 +20,4 @@ if [ -f ~/.alias ]; then
     . ~/.alias
 fi
 
-eval "$(/usr/local/bin/docker-machine env default)"
+fpath=(/usr/local/share/zsh/site-functions $fpath)
